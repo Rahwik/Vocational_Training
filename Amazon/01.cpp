@@ -1,0 +1,1 @@
+//Sum of N Natural Numbers: Calculate the sum of the first N natural numbers. 
