@@ -1,0 +1,1 @@
+//Neon Number Check: Check if a number is a neon number (a number whose square's digits sum up to the number itself). 
