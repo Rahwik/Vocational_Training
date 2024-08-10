@@ -1,0 +1,1 @@
+ // string unsc6 = scramble.substr(5, 1);
