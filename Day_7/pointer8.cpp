@@ -42,15 +42,15 @@ int main()
     int *max = *pa > *pb ? pa : pb;
     cout << "Maximum number is : " << *max << endl;
 
-    cout << "increment of First value : " << ++*pa << endl;
-    cout << "increment of Second value : " << ++*pb << endl;
-    cout << "decrement of First value : " << --*pa << endl;
-    cout << "decrement of Second value : " << --*pb << endl;
+    cout << "increment First value : " << ++*pa << endl;
+    cout << "increment Second value : " << ++*pb << endl;
+    cout << "decrement First value : " << --*pa << endl;
+    cout << "decrement Second value : " << --*pb << endl;
 
-    cout << "increment of First value : " << *pa++ << endl;
-    cout << "increment of Second value : " << *pb++ << endl;
-    cout << "decrement of First value : " << *pa-- << endl;
-    cout << "decrement of Second value : " << *pb-- << endl;
+    cout << "increment First value : " << *pa++ << endl;
+    cout << "increment Second value : " << *pb++ << endl;
+    cout << "decrement First value : " << *pa-- << endl;
+    cout << "decrement Second value : " << *pb-- << endl;
 
     return 0;
 }
