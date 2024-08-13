@@ -21,12 +21,12 @@ int main() {
 
     vector<int> vec(n);
 
-    cout << "Enter the elements: ";
+    cout << "Enter the elements of the Vector: ";
     for (int i = 0; i < n; i++) {
         cin >> vec[i];
     }
 
-    cout << "Original array: ";
+    cout << "Original vector: ";
     for (int i = 0; i < vec.size(); i++) {
         cout << vec[i] << " ";
     }
@@ -34,7 +34,7 @@ int main() {
 
     mZero(vec);
 
-    cout << "Array after moving zeros to the end: ";
+    cout << "Vector after moving zeros to the end: ";
     for (int i = 0; i < vec.size(); i++) {
         cout << vec[i] << " ";
     }

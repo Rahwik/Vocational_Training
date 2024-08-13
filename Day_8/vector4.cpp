@@ -1,5 +1,4 @@
 //reverse a vector
-//reverse a vector
 #include<iostream>
 #include <vector>
 
