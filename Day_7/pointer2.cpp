@@ -1,18 +1,28 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    int arr[5] = {1, 2, 3, 4, 5};
-    int *ptr = new int[5];
-    for (int i = 0; i < 5; i++)
+    int n;
+    cout << "Enter the number of elements: ";
+    cin >> n;
+
+    int* ptr = new int[n];
+
+    cout << "Enter " << n << " elements: ";
+    for (int i = 0; i < n; i++)
     {
-        ptr[i] = arr[i];
+        cin >> ptr[i];
     }
-    for (int i = 0; i < 5; i++)
+
+    cout << "Elements entered by user: ";
+    for (int i = 0; i < n; i++)
     {
-        cout << " element at " << i << " : " << ptr[i] << endl;
+        cout << "Element at " << i << " : " << ptr[i] << endl;
     }
+
     delete[] ptr;
     ptr = nullptr;
+
     return 0;
 }
