@@ -15,10 +15,6 @@ int divide(int a, int b) {
     return a / b;
 }
 
-void uncheckedExceptionExample() {
-    int* p = nullptr;
-    *p = 10;
-}
 
 int main() {
     try {
@@ -28,11 +24,6 @@ int main() {
         cout << "Caught exception: " << e.what() << endl;
     }
 
-    try {
-        uncheckedExceptionExample();
-    } catch (...) {
-        cout << "Caught unknown exception" << endl;
-    }
 
     return 0;
 }
