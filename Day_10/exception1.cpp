@@ -1,32 +1,32 @@
 #include <iostream>
 using namespace std;
 
-class DivideByZeroException
+class NegativeValueException
 {
 public:
     string what()
     {
-        return "Division by zero is not allowed";
+        return "Negative value is not allowed";
     }
 };
 
-int divide(int a, int b)
+int square(int a)
 {
-    if (b == 0)
+    if (a < 0)
     {
-        throw DivideByZeroException();
+        throw NegativeValueException();
     }
-    return a / b;
+    return a * a;
 }
 
 int main()
 {
     try
     {
-        int result = divide(10, 0);
+        int result = square(-5);
         cout << "Result: " << result << endl;
     }
-    catch (DivideByZeroException &e)
+    catch (NegativeValueException &e)
     {
         cout << "Caught exception: " << e.what() << endl;
     }
