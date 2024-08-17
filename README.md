@@ -2,7 +2,7 @@
 ========================
 
 *   [C++ Basics](https://github.com/Rahwik/CPP_BASIC_TO_ADVANCE)
-*   [DSA Questions](https://github.com/Rahwik/Vocational_Training)
+*   [DSA Questions](https://github.com/Rahwik/DSA-IN-CPP)
 
 Vocational Training
 ===================
