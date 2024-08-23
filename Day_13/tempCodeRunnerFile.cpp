@@ -1,0 +1,1 @@
+    Node(float data, Node* next = nullptr) : data(data), next(next) {}
