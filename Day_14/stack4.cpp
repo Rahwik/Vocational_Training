@@ -88,7 +88,7 @@ public:
             cout << endl;
         }
     }
-};
+};3
 
 int main() {
     Stack stack;
