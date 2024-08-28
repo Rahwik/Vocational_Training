@@ -1,6 +1,6 @@
 //height of the binary tree
 #include <iostream>
-#include <algorithm> // added this line
+#include <algorithm>
 using namespace std;
 
 class node
