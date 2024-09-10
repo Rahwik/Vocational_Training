@@ -31,8 +31,20 @@ int make_change_greedy(vector<int> coins, int amount)
 
 int main()
 {
-    vector<int> coins = {1, 2, 5, 10, 20};
-    int amount = 37;
+    int n;
+    cout << "Enter the number of coin : ";
+    cin >> n;
+
+    vector<int> coins(n);
+    cout << "Enter the coins : ";
+    for (int i = 0; i < n; i++)
+    {
+        cin >> coins[i];
+    }
+
+    int amount;
+    cout << "Enter the amount: ";
+    cin >> amount;
 
     int min_coins = make_change_greedy(coins, amount);
     if (min_coins != -1)
@@ -40,7 +52,7 @@ int main()
         cout << "Minimum number of coins needed: " << min_coins << endl;
     }
     else
-     {
+    {
         cout << "Change cannot be made with the given coins." << endl;
     }
 
